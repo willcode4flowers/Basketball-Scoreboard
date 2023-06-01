@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly; 
+    width: 550px; 
+    margin: 100px auto; 
+    padding: 15px 10px 50px 10px; 
+    background-color: #000080;
+    border: 5px solid black; 
+    border-radius: 20px; 
+}
+
+.home-title {
+    width: 200px;
+    height: 36px; 
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    color: white; 
+}
+
+.score {
+    background: #0a0001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 150px; 
+    margin: -20px 10px 10px 20px; 
+    padding-top: 10px; 
+}
+
+
+button {
+    background: none;
+    font-weight: bold; 
+    border: 2px dotted white; 
+    color: white; 
+    justify-content: space-around; 
+    margin: 5px; 
+    padding: 10px;    
+}
+
+button:hover{
+    color: #FFDB58; 
+}
